@@ -40,6 +40,10 @@
     <a class="text-gray" href="{{ docs.repository_url }}/commit/{{ docs.build_revision }}" title="{{ docs.build_revision }}" rel="noreferrer" target="_blank">
         {{- docs.build_revision | slice: 0, 7 -}}
     </a>
+    <br>
+    <span class="attribution">
+    Except as otherwise noted, the content of this page is licensed under the <a class="text-gray" href="https://spdx.org/licenses/CC-BY-4.0.html" rel="noreferrer" target="_blank">Creative Commons Attribution 4.0</a> and sample code is licensed under the <a class="text-gray" href="https://spdx.org/licenses/Apache-2.0.html" rel="noreferrer" target="_blank">Apache License 2.0</a>.
+    </span>
     {% unless site.url contains "rundocs.io" %}
         <br>
         <div class="generator">
